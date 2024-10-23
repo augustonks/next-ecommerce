@@ -6,7 +6,7 @@ const CartModal = () => {
     const lineItems = true;
 
     return (
-        <div className="absolute w-max right-0 top-10 text-black p-4 rounded-md shadow-[0_3px_10px_rgb(0,0,0,0.2)] z-10 flex flex-col gap-6">
+        <div className="absolute w-max right-0 top-10 text-black p-4 rounded-md shadow-[0_3px_10px_rgb(0,0,0,0.2)] z-10 flex flex-col gap-6 bg-white">
             {!lineItems ? (
                 <div>Carrinho vazio</div>
             ) : (
